@@ -43,14 +43,6 @@ export default defineComponent({
         const formData = new FormData();
         formData.append("file", files[0]);
 
-        // const xhr = new XMLHttpRequest();
-        // // 上传文件必须得是post
-        // xhr.open("post", "/api/upload", true);
-        // xhr.onload = function () {
-        //   console.log(xhr.responseText);
-        // };
-        // xhr.send(formData);
-
         axios
           .post('/api/upload', formData, {
             headers: {
