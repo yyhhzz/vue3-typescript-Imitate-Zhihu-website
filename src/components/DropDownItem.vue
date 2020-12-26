@@ -1,5 +1,5 @@
 <template>
-  <!-- 这是下拉菜单项目组件 -->
+  <!-- 这是下拉菜单项目组件s -->
   <li class="dropdown-option" :class="{ 'is-disabled': disabled }">
     <slot></slot>
   </li>
